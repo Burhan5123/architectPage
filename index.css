@@ -1,0 +1,60 @@
+body{
+
+	background-image: url("image/img1.jpg");
+	background-size: cover;
+	font-family: 'Grape Nuts', cursive;
+}
+
+
+img{
+
+	width: 25vw;
+	border: 1vw solid #555;
+
+}
+
+p{
+
+	font-size: 2vw;
+
+
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  text-align: center;
+}
+
+h1{
+
+font-size: 5vw;
+color: darkgrey;
+text-align: center;
+text-decoration: underline;
+
+}
+
+h2{
+
+font-size: 3vw;
+color: darkgrey;
+text-align: center;
+
+
+}
+
+.item1{
+	
+  	grid-column: 1 / 3;
+  	grid-row: 3;  	
+
+}
+
+figcaption{
+
+	font-size: 1vw;
+
+
+}
